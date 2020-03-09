@@ -10,3 +10,4 @@ $cat .gitignore
 _windows
 codestyles
 
+/node_modules/

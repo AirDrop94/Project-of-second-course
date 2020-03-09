@@ -5,7 +5,7 @@ export const CONFIG = {
   about: '.about',
   searchPage: '.search-page',
   searchPageResults: '.search-page .results',
-  searchNoResult: 'Подходящих документов не найдено.',
+  searchNoResult: 'ERROR Document does`t exist.',
   navSearch: '.form-inline',
   searchInput: '#search-input',
   navNewsline: '#nav-newsline',
@@ -18,4 +18,13 @@ export const CONFIG = {
   articleContentImg: '.single-news .full .img-large',
   articleBack: '.single-news .back',
   aboutBack: '.about .back',
+  subscribeNews: '.subscribeNews',
+  commentsSection: '#commentsForm',
+  commentAuthor: '#commentAuthor',
+  commentText: '#commentText',
+  postCommentButton:'#postCommentButton',
+  commentsContainer: '#commentsContainer'
 };
+//http://localhost:3007
+//typicode
+//https://my-json-server.typicode.com/AirDrop94/Project-of-second-course

@@ -7146,9 +7146,10 @@ a.text-dark:hover, a.text-dark:focus {
 
 body {
   font-family: Menlo, sans-serif;
-  background: dimgray; }
+  background: #333333; }
   body .search-page h2 {
-    background-color: maroon;
+    background-color: #3859b2;
+    color: white;
     font-size: 3.5rem;
     font-weight: 600;
     padding: 10px 30px; }
@@ -7167,14 +7168,15 @@ body {
       font-size: 1.5rem;
       color: green; }
   body h1 {
-    background-color: firebrick; }
+    background-color: #3859b2;
+    color: white; }
   body .card .card-header {
     color: white;
-    background: firebrick;
+    background: #3859b2;
     font-size: 1.2rem;
     font-weight: bold; }
   body .card .img-large {
-    max-width: 80%;
+    max-width: 50%;
     height: auto;
     display: block; }
     @media (min-width: 540px) {
@@ -7184,7 +7186,8 @@ body {
   body .card p {
     white-space: nowrap;
     overflow: hidden;
-    text-overflow: ellipsis; }
+    text-overflow: ellipsis;
+    color: white; }
   body .card .full {
     text-indent: 30px;
     white-space: normal;
@@ -7192,12 +7195,12 @@ body {
     text-align: justify; }
   body .btn {
     color: white;
-    background: black; }
+    background: #7d7dd5; }
   body a {
     color: white; }
   body .card-header {
     border-radius: 10px; }
   body .card {
-    background: #69b4ee;
+    background: #7d7dd5;
     border-radius: 10px; }
 

@@ -1,4 +1,4 @@
-import { CONFIG } from './config';
+import {CONFIG} from './config';
 
 export class Ui {
   constructor(router) {
@@ -20,6 +20,7 @@ export class Ui {
     this.articleContent = document.querySelector(CONFIG.articleContent);
     this.articleContentImg = document.querySelector(CONFIG.articleContentImg);
     this.templateScript = document.querySelector('#products-template');
+    this.subscribeNews = document.querySelector(CONFIG.subscribeNews);
   }
 
   hideAll() {
@@ -28,10 +29,10 @@ export class Ui {
     this.singleNews.classList.add(CONFIG.dNone);
     this.about.classList.add(CONFIG.dNone);
     this.searchPage.classList.add(CONFIG.dNone);
+    this.errorPage.classList.add(CONFIG.dNone);
   }
 
   handlebarCompile(data) {
-    // eslint-disable-next-line no-undef
     return Handlebars.compile(this.templateScript.innerHTML)(data);
   }
 
@@ -62,6 +63,7 @@ export class Ui {
   renderAboutPage() {
     this.hideAll();
     this.about.classList.remove(CONFIG.dNone);
+    console.log(this.about);
   }
 
   renderArticle(data) {
@@ -70,8 +72,6 @@ export class Ui {
       this.news.classList.add(CONFIG.dNone);
       const article = [...data].find((item) => String(item.id) === String(articleId));
       const isFind = !(article === undefined);
-      // const isFind = !(Object.entries(article).length === 0 && article.constructor === Object);
-      // eslint-disable-next-line no-unused-expressions
       isFind ? this.renderArticleHtml(article) : this.render404();
     }
   }
@@ -93,11 +93,14 @@ export class Ui {
   render404() {
     window.history.pushState(null, null, '/404');
     this.router.render(decodeURI(window.location.pathname));
+    console.log(this.router.render(decodeURI(window.location.pathname)));
   }
 
   renderErrorPage() {
     this.allContent.classList.add(CONFIG.dNone);
+    console.log(this.allContent.classList.add(CONFIG.dNone));
     this.errorPage.classList.remove(CONFIG.dNone);
+
   }
 
   renderSearchPage(articles) {
@@ -144,5 +147,75 @@ export class Ui {
       window.history.pushState(null, null, `/search/${this.searchInput.value}`);
       this.router.render(decodeURI(window.location.pathname));
     });
+  }
+
+  subscribeNewsForm() {
+    this.subscribeNews.addEventListener('submit', (event) => {
+      event.preventDefault();
+      const _userData = [];
+      this.subscribeNews.querySelectorAll('input').forEach(e => _userData.push(e.value));
+      alert('Subscribe successful');
+      console.log(_userData);
+    });
+  }
+
+  postCommentForm(){
+
+    const commentAuthor = document.querySelector(CONFIG.commentAuthor);
+    const commentText = document.querySelector(CONFIG.commentText);
+    console.log(commentAuthor);
+    //
+    // const { commentAuthor } = CONFIG.elements;
+    // const { commentText } = CONFIG.elements;
+
+    fetch(`${CONFIG.api}/comments`,{
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(
+{
+        author: `${commentAuthor.value}`,
+        text: `${commentText.value}`,
+      },
+      ),
+    })
+        .then((res) => {
+          if(res.status !==201) {
+            return Promise.reject(new Error(res.statusText));
+          }
+          return Promise.resolve(res);
+        })
+        .then(() => {
+          this.getNewComment();
+    });
+  }
+
+  getNewComment() {
+    const commentTemplate = document.querySelector('#comment-template').innerHTML;
+    const template = Handlebars.compile(commentTemplate);
+    const commentsContainer = document.querySelector(CONFIG.commentsContainer);
+    fetch(`${CONFIG.api}/comments`, {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    })
+        .then((res) => res.json())
+        .then((data) => {
+          this.comments = data;
+          commentsContainer.innerHTML = template(data);
+        });
+  }
+
+  initComment() {
+    const postCommentButton = document.querySelector(CONFIG.postCommentButton);
+
+    postCommentButton.addEventListener('click', (event) => {
+      event.preventDefault();
+      this.postCommentForm();
+      console.log(event);
+
+    })
   }
 }

@@ -35,6 +35,34 @@
 
       </ul>
 
+      <div class="container col-8 text-left ml-7">
+        <form class="subscribeNews">
+          <div class="form-group">
+            <h5>If you want to keep abreast of our news, subscribe!</h5>
+            <label for="inputEmail" style="color: white">Email address</label>
+            <input type="email"
+                   class="form-control"
+                   id="inputEmail"
+                   aria-describedby="emailHelp"
+                   placeholder="sample@email.com"
+                   required>
+            <small id="emailHelp" class="form-text" style="color: white">
+              Please enter your email address</small>
+            <label for="inputPassword" style="color: white">Password</label>
+            <input type="password"
+                   class="form-control"
+                   id="inputPassword"
+                   placeholder="Min 5 symbols"
+                   minlength="5"
+                   required>
+            <small class="form-text" style="color: white">Please enter password and remember him</small>
+            <div class="mt-2">
+              <button type="submit" class="btn btn-primary" id="submitBtn">Subscribe</button>
+            </div>
+          </div>
+        </form>
+      </div>
+
       <div class="news">
 
         <script id="products-template" type="x-handlebars-template">​
@@ -59,6 +87,23 @@
 
       </div>
 
+      <div class="about d-none">
+        <h2 class="mt-3 text-center" style="color: white">About us</h2>
+        <p class="mt-2 p-3 text-justify" style="color: white">
+          This site is a single page application. Written in pure JS without the use of third-party libraries or
+          frameworks.
+          The site has a registration form, search form and post comment form. There is also a 404 page, about, and
+          search output by name. Creation date 2020.03.09.
+        </p>
+        <a href="#" class="m-3 back">Back to news line</a>
+      </div>
+
+      <div class="search-page d-none">
+        <h2 class="text-left">Results: <span>///</span></h2>
+        <div class="results"></div>
+        <!--        <a href="#" class="m-3 back">Back to news line</a>-->
+      </div>
+
       <div class="single-news d-none">
 
         <div class="card my-4 text-left">
@@ -66,47 +111,61 @@
           <div class="m-4">
             <p class="full">
               <img src="/assets/img/img1.png" class="card-img img-large m-3" alt="...">
-
             </p>
           </div>
           <a href="#" class="m-3 back">Back to news line</a>
+
+          <script id="comment-template" type="x-handlebars-template">
+            {{#each this}}
+            <div class="comment container mt-5 my-4 text-left" style="border-bottom: 1px dashed black">
+              <div class="col-sm-12">
+                <p class="author font-italic">{{author}}</p>
+              </div>
+              <div class="col-sm-12">
+                <p class="text">{{text}}</p>
+              </div>
+            </div>
+            {{/each}}
+          </script>
+
+          <div class="my-4 text-left">
+            <div class="row mx-auto mt-5 w-50" id="commentsSection">
+              <div class="mx-auto" id="commentsForm">
+                <h5 class="mb-4" style="color: white">Send comment</h5>
+                <form class="row">
+                  <div class="col-sm-12">
+                    <div class="form-group">
+                      <label for="commentAuthor" style="color: white">Author</label>
+                      <input type="text" class="form-control" id="commentAuthor"
+                             name="commentAuthor" value="" required>
+                    </div>
+                  </div>
+                  <div class="col-sm-12">
+                    <div class="form-group">
+                      <label for="commentText" style="color: white">Text</label>
+                      <textarea class="form-control" id="commentText"
+                                name="commentText"
+                                rows="5"
+                                required></textarea>
+                    </div>
+                  </div>
+                </form>
+                <button type="submit" class="btn btn-success mt-3 mb-4"
+                        id="postCommentButton">Send
+                </button>
+              </div>
+
+            </div>
+            <div id="commentsContainer">
+
+            </div>
+          </div>
         </div>
-      </div>
-
-      <div class="about d-none">
-        <h2 class="mt-3 text-center" style="color: white">About us</h2>
-        <p class="mt-2 p-3 text-justify" style="color: white">
-          Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem
-          ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-          standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
-          to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
-          typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
-          sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
-          PageMaker including versions of Lorem Ipsum.Lorem ipsum is simply dummy text of the printing and
-          typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
-          an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived
-          not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-          It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker including versions of Lorem
-          Ipsum.Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-          industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
-          electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release
-          of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software
-          like Aldus PageMaker including versions of Lorem Ipsum.
-        </p>
-        <a href="#" class="m-3 back">Back to news line</a>
-      </div>
-
-      <div class="search-page d-none">
-        <h2 class="text-left">Results: <span>///</span></h2>
-        <div class="results">
-<!--<p>Document does`t exist.</p>-->
-        </div>
 
       </div>
-
     </div>
+
+
   </div>
 </div>
 
@@ -114,6 +173,7 @@
   <h3>Error 404, content does`t exist</h3>
   <a href="/">Go to main page</a>
 </div>
+
 
 <script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.min.js"></script>
 <script src="/bundle.js"></script>
