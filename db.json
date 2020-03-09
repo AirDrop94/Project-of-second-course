@@ -2,77 +2,135 @@
   "articles": [
     {
       "id": 1,
-      "name": "News Europe",
+      "name": "News Arabia",
       "content": {
-        "date": "2020/01/21 18:51",
+        "date": "2020/03/09 14:50",
         "img": {
-          "url": "/assets/img/img1.png",
-          "name": "News Europe"
+          "url": "/assets/img/arabia.jpg",
+          "name": "News Arabia"
         },
-        "data": "Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-
+        "data": "Stocks across the world tumbled early Monday after a shocking all-out oil price war added to anxiety around the economic fallout from the spreading coronavirus.\n\nFutures on the Dow Jones Industrial Average indicated an opening drop of more than 1,300 points. The S&P 500 futures indicated a 5% drop at Monday’s open. The S&P futures trading was briefly halted overnight. The sharp declines in the futures market signaled more turbulence ahead after a roller-coaster week that saw the S&P 500 swing up or down more than 2.5 percent for four days straight.\n\nThe massive sell-off could trigger key market circuit breakers during regular trading hours.\n\nAmid the market turmoil, investors continued to seek safer assets amid additional fears that the coronavirus will disrupt global supply chains and tip the economy into a recession. The yield on the benchmark 10-year Treasury note dropped below 0.5 percent for the first time ever, while the 30-year rate breached 1 percent.\n\nOil prices plunged more than 20 percent after OPEC’s failure to strike a deal with its allies regarding production cuts caused Saudi Arabia to slash its prices as it reportedly gets set to ramp up production.\n\nThe Saudi price cut followed a breakdown of talks in Vienna last week. On Thursday, OPEC recommended additional production cuts of 1.5 million barrels per day starting in April but OPEC ally Russia rejected the additional cuts. With no deal in place when the current one expires at the end of the month, producers could soon pump as much oil as they want.\n\n“Crude has become a bigger problem for markets than the coronavirus,” Adam Crisafulli, founder of Vital Knowledge, said Sunday. “It will be virtually impossible for the [S&P 500] to sustainably bounce if Brent continues to crater,” he added.\n\nInvestors have already been on edge about the coronavirus outbreak that caused major stock averages to tumble into correction territory. As of Sunday, global cases of the infections have climbed to more than 109,000 with at least 3,801 deaths around the world. The situation is also worsening in the U.S. with New York, California and Oregon all declaring a state of emergency.\n\n“The idea that lower gasoline prices is going to put more cash in workers’ pockets and give consumer spending and the economy a boost doesn’t seem to cushion the blow for stock market investors,” Chris Rupkey, MUFG Union Bank’s chief financial economist, said in a note Sunday.\n\n“They want out. Big time. The sky is falling. Get out, get out while you can. Wall Street’s woes have to eventually hit Main Street’s economy hard.”\n\nGold, another safe-haven asset, crossed $1,700 an ounce, hitting its highest level since Dec. 2012. Meanwhile, copper prices hit a more than three-year low of $2.46. Copper is seen as a barometer of broad economic demand given its applications in electrical equipment and manufacturing.\n\nThe Federal Reserve announced an emergency rate cut last week to combat the economic impact from the virus, its first such move since the financial crisis. President Donald Trump on Friday signed a sweeping spending bill of a$8.3 billion packageto aid medical research. Wall Street expects more stimulus from global central banks and governments to prevent a recession.\n\nThe S&P 500 has fallen 8 percent this year after suffering its worst week since the financial crisis at the end of February. The benchmark is down more than 12 percent from its recent peak."
       }
     },
     {
       "id": 2,
-      "name": "News USA",
+      "name": "News Italy",
       "content": {
         "date": "2020/02/11 17:21",
         "img": {
           "url": "/assets/img/img2.jpg",
-          "name": "News USA"
+          "name": "News Italy"
         },
-        "data": "Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-
+        "data": "The Italian government has given little guidance, although it said the lockdown in the northern Lombardy region, where Milan is situated, would last until at least Apr. 3.\n\nAbout 10 million people live in the area. Another 6 million in other provinces, including Venice, Parma and Modena, were also placed under quarantine.\n\nGalli, like many, said it was unclear how food will be transported into the city.\n\nPrime Minister Giuseppe Conte said Sunday that people will be restricted from entering areas designated as \"red zones,\" except for ''undeferrable work needs or emergency situations',' until at least early April.\n\nThe measures were put in place as more than 230 people have died from COVID-19, the disease caused by the coronavirus, in Italy and as a total of 5,883, people have been diagnosed with the respiratory illness. Close to half of them — 2,651 — have been hospitalized."
       }
     },
     {
       "id": 3,
-      "name": "News Russia",
+      "name": "News Afghanistan",
       "content": {
         "date": "2020/02/10 09:20",
         "img": {
-          "url": "/assets/img/img3.png",
-          "name": "Russia"
+          "url": "/assets/img/img3.jpg",
+          "name": "Afghanistan"
         },
-        "data": "Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        "data": "DOHA, Qatar — The Taliban cheered, whooped and cried \"God is Great\" just moments after one of their leaders signed an agreement that could lead to the United States' withdrawal from Afghanistan after more than 18 years of war.\n\nOn Saturday in this tiny Gulf kingdom, senior American officials shook hands with the group that, as the government of Afghanistan from 1996 to 2001, had sheltered Osama bin Laden, the Al Qaeda leader and the architect of the Sept. 11, 2001, terror attacks. The U.S. agreed to work toward lifting sanctions against the group, and Taliban leaders can even look forward to a possible meeting with President Donald Trump.\n\nIn short, after nearly two decades of war with the world's remaining superpower, the Taliban look like they not only have won the war, but they are also on the way to shedding their status as international pariahs.\n\n"
       }
     },
     {
       "id": 4,
-      "name": "News Belarus",
+      "name": "News Mexico",
       "content": {
         "date": "2020/02/18 09:20",
         "img": {
-          "url": "/assets/img/img4.png",
-          "name": "Belarus"
+          "url": "/assets/img/img4.jpg",
+          "name": "Mexico"
         },
-        "data": "Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        "data": "MEXICO CITY — The man was obsessed with Marbella Valdez. He sent her gifts, bought food for her friends. Prosecutors say he even planted a tracking device on her car.\n\nAnd when the 20-year-old law student’s body, beaten, bound and strangled, was found at a Tijuana garbage dump, he approached police to demand the case be solved. He even turned up at her funeral bearing a floral arrangement and wearing a T-shirt with her photograph and the feminist slogan “Not One More Woman” printed on it.\n\nA week later, he was arrested and charged with her murder.\n\nThe man — identified by Mexican rules only by his first name, Juan — has insisted on his innocence.\n\nAuthorities in the border state of Baja California confirmed that the suspect is the man seen in photographs depositing flowers on Marbella’s coffin as it was lowered into the ground on Feb. 14.\n\nBy that time, Marbella’s family already believed he was the one who killed her, but they couldn’t say a word.\n\n“And the guy showed up at the funeral and we had to shut our mouths, which was the hardest thing in the world,” said William H. Messick, a San Diego software executive who has run a self-funded non-profit since 2014 to help youngsters like Marbella as they age out of orphanages. While he never legally adopted her, Marbella considered him a father.\n\n“I wanted to throw up every time I saw him, I wanted to kill him,” Messick said. “And we’re getting thrown under the bus. In the media, people are like, ‘Oh my God, why did they let him go to the funeral?’ We had no choice, we had to play along, otherwise he would have fled, or he would have killed Brenda (Marbella’s adoptive sister).”\n\nThe pair, Messick and Brenda Villarreal, had done much of the investigation after she disappeared on Feb. 5. Within a few hours, Brenda got a message from her: Someone had apparently taken Marbella’s phone and sent out messages impersonating her.\n\n“We knew it wasn’t her when I first read a message I got,” Brenda said. “It said, ‘I feel bad, I’m going to see the dr,’ and my sister doesn’t write that way.”\n\nMarbella had grown up in a Tijuana orphanage and Messick paid her rent and ensured she went to school. In return, he expected she would go to church and not allow any men, even him, into her apartment.\n\nJuan had started pursuing Marbella, a 20-year-old law student, since mid-2019, targeting her mainly at her day job as a pump attendant at an all-female gas station in Tijuana.\n\nHe had been trying to win Marbella’s trust for months, giving her chocolate, flowers, stuffed animals and other gifts.\n\n“I would ask her and she just kind of laughed it off, she didn’t really take it seriously.” Messick said. “I’m like, ‘Are you interested in this guy?’ And she’s like, ‘Oh no, of course not.’ ... Constantly there was more stuff in her apartment, and like a giant teddy bear. She just always laughed it off. She thought it was hilarious, and thought it was not a big deal.”\n\nJuan would show up to the gas station where she worked, and bring breakfast to all Marbella’s co-workers.\n\nThat seemed harmless enough: “He would try to win everybody over , everybody thought he was great,” Messick said.\n\nBut a more sinister side gradually emerged. Messick said Juan seemed always to know where Marbella was. After his arrest, police found a GPS locating device to Marbella’s car, and Messick said he believed the man may have taken a copy of the keys to her apartment.\n\nMarbella disappeared on Feb. 5 and her family quickly managed to get into her messaging accounts. They were later able use them to determine her location after she disappeared, which matched Juan’s location.\n\n“This guy Juan, when we hacked her WhatsApp account, he noticed,” Messick recalled. “He called and said, ‘Oh, this is interesting, her WhatsApp account is active.’ It wasn’t like, ‘Oh my God, she’s connected.’ It was like, ‘No, it’s interesting.’ ... And like 2 hours later, that’s when her body showed up. I think he realized we were on to him.”\n\nThe suspect once reportedly worked as a sort of civilian intern for a police forensic office and liked to present himself as a former cop, though he never was one. He also approached police to find out information on their investigation of Marbella’s death, according to prosecutors quoted by the newspaper El Imparcial.\n\nState prosecutors said they had more evidence when they arrested Juan on Feb. 21, including GPS location data from his phone showing he had been with Marbella after she disappeared and his DNA was found under the dead woman’s fingernails.\n\nFor three days after her disappearance, relatives had been telling police they suspected Juan of taking her; Brenda believes that if they had searched Juan’s house, they could have found her alive. “I told them, if you had acted, my sister might still be alive,” Brenda said\n\n“The level of suffering is so many degrees, it’s so painful,” Messick said, days after the initial arraignment. “The guy was smiling at the hearing.”"
       }
     },
     {
       "id": 5,
-      "name": "News China",
+      "name": "News North Korea",
       "content": {
         "date": "2020/02/18 09:20",
         "img": {
-          "url": "/assets/img/img5.png",
-          "name": "China"
+          "url": "/assets/img/img5.jpg",
+          "name": "North Korea"
         },
-        "data": "Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        "data": "North Korea fires unidentified projectiles\nThe nation begins to resume weapons demonstrations after a months-long hiatus possibly forced by the coronavirus crisis in Asia. SEOUL, South Korea — North Korea fired two unidentified projectiles into its eastern sea on Monday as it begins to resume weapons demonstrations after a months-long hiatus that could have been forced by the coronavirus crisis in Asia.\n\nThe launches from an area near Wonsan came two days after North Korea’s state media said leader Kim Jong Un supervised an artillery drill aimed at testing the combat readiness of units in front-line and eastern areas.\n\nSeoul’s Joint Chiefs of Staff confirmed the launches in a statement but couldn’t immediately say how far the projectiles flew or whether the weapons were ballistic or rocket artillery.\n\nKim had entered the New Year vowing to bolster his nuclear deterrent in face of “gangster-like” U.S. sanctions and pressure, using a key ruling party meeting in late December to warn of “shocking” action over stalled nuclear negotiations with the Trump administration.\n\nHe also said the North would soon reveal a new “strategic weapon” and insisted the North was no longer “unilaterally bound” to a self-imposed suspension on the testing of nuclear and intercontinental ballistic missiles."
       }
     },
     {
       "id": 6,
-      "name": "News Japan",
+      "name": "News Greece",
       "content": {
         "date": "2020/02/18 09:20",
         "img": {
-          "url": "/assets/img/img6.png",
-          "name": "Japan"
+          "url": "/assets/img/img6.jpg",
+          "name": "Greece"
         },
-        "data": "Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        "data": "Thousands of migrants amass at Greek border after Turkey opens gates\n\"We’re concerned about these vulnerable people who are exposed to the elements,” said U.N. migration agency's Turkey chief said. After Turkey declared it would open its land border with Greece, at least 13,000 people have gathered there hoping to cross into the European Union, the United Nations migration organization said Sunday.\n\nSpurred on by Saturday's announcement from Turkish president Recep Tayyip Erdogan that he would not \"close these doors in the coming period,\" thousands made their way border.\n\nIn return for E.U. funds, Turkey agreed to step up efforts to halt the flow of hundreds of thousands refugees passing through the country and into Europe, mainly via Greece and Bulgaria in 2015.\n\nHowever, Erdogan accused the E.U. of not keeping up it's end of the bargain. His decision came amid a military escalation in northwestern Syria's Idlib province that has forced hundreds of thousands of Syrian civilians to flee fighting there, with many of them heading north toward Turkey."
       }
+    },
+    {
+      "id": 7,
+      "name": "News France",
+      "content": {
+        "date": "2020/02/18 09:20",
+        "img": {
+          "url": "/assets/img/img7.jpg",
+          "name": "France"
+        },
+        "data": "To fight coronavirus, France urges no more greetings with kisses, bans large gatherings\nThe French health minister said he is recommending people cut back on \"la bise,\" the custom of giving greetings with kisses, or air kisses, on the cheeks. France announced Saturday that it is banning gatherings of more than 5,000 people in confined spaces and recommending that people stop greeting each other with kisses.\n\nThe announcement comes as the French government ramps up its efforts to slow the spread of coronavirus after the country reported 16 new cases.\n\nA half-marathon in Paris that was scheduled for Sunday has been canceled and an annual agricultural fair will be closing early. Municipal elections scheduled for March 15 are expected to take place as planned.\n\n"
+      }
+    },
+    {
+      "id": 8,
+      "name": "News United Kingdom",
+      "content": {
+        "date": "2020/02/18 09:20",
+        "img": {
+          "url": "/assets/img/img8.jpg",
+          "name": "United Kingdom"
+        },
+        "data": "Boris Johnson, partner announce they are expecting a child and are engaged\nJohnson will be the first British prime minister to marry while holding office in 250 years, though others have been in office when their partners gave birth. British Prime Minister Boris Johnson and Carrie Symonds, his partner, announced Saturday that they are expecting a baby and have gotten engaged.\n\nThe couple are expecting the birth of their first child early this summer, a spokesperson said.\n\nJohnson, 55, and Symonds, 31, have lived at 10 Downing Street since the Conservative Party leader took office in July 2019. Symonds, a former spokesperson for the party, is the first unmarried partner of a British prime minister to live in the post's official residence.\n\nJohnson will be the first British prime minister to marry while holding office in 250 years, according to Reuters, though others have been in the office when their wives gave birth.\n\nConservative Prime Minister David Cameron and Labor Prime Minister Tony Blair both had children while in office, Reuters reported. Cameron and his wife Samantha had a daughter in 2010, while Blair and his wife Cherie had a son in 2000."
+      }
+    },
+    {
+      "id": 9,
+      "name": "News Israel",
+      "content": {
+        "date": "2020/02/18 09:20",
+        "img": {
+          "url": "/assets/img/img9.jpg",
+          "name": "Israel"
+        },
+        "data": "Israelis vote in unprecedented third election in less than a year\nAhead of a criminal trial on corruption charges, Prime Minister Benjamin Netanyahu faces a challenge once again from retired military chief Benny Gantz. JERUSALEM — Israelis voted Monday in the country's unprecedented third election in less than a year to decide whether longtime Prime Minister Benjamin Netanyahu stays in power despite his upcoming criminal trial on corruption charges.\n\nNetanyahu, the longest-serving leader in Israeli history, has been the caretaker prime minister for more than a year as a divided Israel has weathered two inconclusive elections and a prolonged political paralysis. With opinion polls forecasting another deadlock, Netanyahu is seeking a late surge in support to score a parliamentary majority along with other nationalist parties that will deliver him a fourth consecutive term in office, and fifth overall.\n\nHe faces a stiff challenge once again from retired military chief Benny Gantz, whose centrist Blue and White party is running even with Netanyahu's Likud on a campaign message that Israel's longtime prime minister is unfit to lead because of the serious charges against him.\n\n Both parties appear unable to form a coalition with their traditional allies. With the prospect of a unity government between them seemingly off the table after a particularly nasty campaign, Monday's vote may well turn into merely a preamble to another election.\n\n“I hope that today marks the start of a healing process, where we can begin living together again,\" Gantz said upon voting in his hometown of Rosh Ha'ayin in central Israel, warning voters not to “get drawn in by the lies or by the violence\" after the acrimonious election campaign.\n\nThere was little fanfare in the days leading up to the vote, with a noticeable absence of campaign posters on the streets and public rallies that typically characterize to run-up to Israeli elections. With voter fatigue clearly a factor, turnout could prove to be decisive. Election day is a national holiday in Israel and the country usually boasts one of the highest voter turnouts among Western democracies. But the second repeat vote and fears of the new coronavirus, which has so far has been kept largely in check, look to hinder turnout.\n\nIsrael set up some 15 stations to allow voting by hundreds of Israelis who have been ordered to remain in home-quarantine after possible exposure to the virus."
+      }
+    },
+    {
+      "id": 10,
+      "name": "News Russia",
+      "content": {
+        "date": "2020/02/18 09:20",
+        "img": {
+          "url": "/assets/img/img10.jpg",
+          "name": "Russia"
+        },
+        "data": "Russian constitution must define marriage as heterosexual, Putin says\nPutin has claimed he’s not prejudiced against gays, but that he finds a Western willingness to embrace homosexuality out of step with Russian values. MOSCOW - President Vladimir Putin has proposed amending the Russian constitution to spell out that marriage means a union between a man and a woman and nothing else, a senior politician was cited as saying on Monday by the RIA news agency.\n\nPutin, who has aligned himself with the Russian Orthodox Church and sought to distance Russia from liberal Western values, has proposed a shake-up of Russia’s political system that critics say may be designed to extend his grip on power after 2024, when he is due to leave the Kremlin.\n\nHe and his supporters see that overhaul as an opportunity to modify the constitution to enshrine what they see as Russia’s core moral and geopolitical values for future generations. Putin on Monday submitted his constitutional proposals to parliament just before the deadline, RIA cited Pyotr Tolstoy, deputy chairman of the lower house, as saying.\n\n“For me, the most important one is his proposal to enshrine in basic law the concept of marriage as a union between a man and a woman,” Tolstoy added.\n\nPutin said last month Russia would not legalize gay marriage as long as he was in the Kremlin. He said he would not let the traditional notion of a mother and father be subverted by what he called “parent number 1” and “parent number 2.”\n\nHomosexuality in Russia, where the influence of the socially conservative Orthodox Church has grown in recent years, was a criminal offense until 1993, and classed as a mental illness until 1999.\n\nUnder Russian law, only heterosexual couples can adopt children in Russia."
+      }
+    }
+  ],
+  "comments": [
+    {
+      "author": "342356789",
+      "text": "rt54678ioikjyhtgrf",
+      "id": 1
+    },
+    {
+      "author": "Аффтор",
+      "text": "Аффтор жжот",
+      "id": 2
     }
   ]
 }
