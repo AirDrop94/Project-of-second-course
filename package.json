@@ -32,6 +32,6 @@
     "bootstrap": "^4.4.1",
     "handlebars": "^4.7.3",
     "jquery": "^3.4.1",
-    "jquery-validation": "^1.19.1"
+    "jquery-validation": "^1.19.3"
   }
 }
